@@ -13,8 +13,7 @@ class Test_ABC:
     def test_b(self):
         print(">>>>>>>test_b")
         assert True
-    def test_c(self):
-        print(">>>>>>>test_b")
-        assert True
+
+
 
 
