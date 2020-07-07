@@ -9,13 +9,9 @@ class Test_ABC:
     @pytest.mark.run(order=-1)
     def test_a(self):
         print(">>>>>>test_a")
-        assert True
+        assert False
     def test_b(self):
         print(">>>>>>>test_b")
         assert True
-    def test_c(self):
-        print(">>>>>>>test_c")
-        assert True
 
-if __name__ == '__main__':
-    pytest.main("-s test_001.py")
+
