@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-201604071036",
+    "children" : [ {
+      "name" : "9080-MainThread",
+      "children" : [ {
+        "name" : "test_002",
+        "uid" : "103391887203cd92",
+        "parentUid" : "30f662d79899176fd23f0addcc012c03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593755476746,
+          "stop" : 1593755476746,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_001",
+        "uid" : "a7961c25851ca62a",
+        "parentUid" : "30f662d79899176fd23f0addcc012c03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593755476744,
+          "stop" : 1593755476744,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30f662d79899176fd23f0addcc012c03"
+    } ],
+    "uid" : "f1165eec535ba38f392d3066e0ab980e"
+  } ]
+}

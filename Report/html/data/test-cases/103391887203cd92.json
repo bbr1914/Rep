@@ -1,0 +1,65 @@
+{
+  "uid" : "103391887203cd92",
+  "name" : "test_002",
+  "fullName" : "scripts.yy.Test_allure#test_002",
+  "historyId" : "a53b724932ae97ca5b0f3ea1f968a0e5",
+  "time" : {
+    "start" : 1593755476746,
+    "stop" : 1593755476746,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <yy.Test_allure object at 0x0000000003B36C50>\n\n    @allure.issue('http://www.163.com/test_002')\n    def test_002(self):\n>       assert 0\nE       assert 0\n\nscripts\\yy.py:14: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "yy"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_allure"
+  }, {
+    "name" : "host",
+    "value" : "PC-201604071036"
+  }, {
+    "name" : "thread",
+    "value" : "9080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.yy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://www.163.com/test_002",
+    "url" : "http://www.163.com/test_002",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "103391887203cd92.json",
+  "parameterValues" : [ ]
+}
