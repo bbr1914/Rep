@@ -9,8 +9,11 @@ class Test_ABC:
     @pytest.mark.run(order=-1)
     def test_a(self):
         print(">>>>>>test_a")
-        assert False
+        assert True
     def test_b(self):
+        print(">>>>>>>test_b")
+        assert True
+    def test_c(self):
         print(">>>>>>>test_b")
         assert True
 
